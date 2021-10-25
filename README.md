@@ -36,10 +36,23 @@ https://research.google.com/colaboratory/local-runtimes.html
 
 Alternatively, you can of course download the .ipynb files (*File>Download*) and simply run them in the Jupyter editor instead of Colab.
 
-As described in the instructions linked above, you should have a running Jupyter console providing such a link:
+As described in the instructions linked above, you should have a running Jupyter console providing access links (see at the bottom of the image):
 
 ![bash log of running Jupyter](pictures/vmplayer_p0mqohV7gr.png)
 
+Copy the link containing *localhost* to your clipboard.
+Go to the Google Colab tab in your browser and at the top right, open the environment menu by clicking on the small arrow as shown below. Then select **Connect to a local runtime**.
 
+![selecting the local runtime](pictures/chrome_wWkscSQyaG.png)
 
+Paste the link in the window that appeared and click **Connect**.
 
+Do this for all Colab notebooks.
+
+# First steps 
+
+Run the first cell, installing the packages. 
+* If you are connected to a local environment (see [the previous section](#connecting-the-notebooks-to-a-local-environment)), install the packages in one Colab only is enough -- as they are all sharing the same environment.
+* Else, run the first cell independently in all Colabs. It will take a few minutes to install, so do it in parallel.
+
+In the second cell (starting Duet), if you are running a local environment you can add *loopback=true* as written in the cell comments. 
