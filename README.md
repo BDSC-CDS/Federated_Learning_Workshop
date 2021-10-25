@@ -38,12 +38,12 @@ Alternatively, you can of course download the .ipynb files (*File>Download*) and
 
 As described in the instructions linked above, you should have a running Jupyter console providing access links (see at the bottom of the image):
 
-![bash log of running Jupyter](pictures/vmplayer_p0mqohV7gr.png)
+![bash log of running Jupyter](pictures/jupyterserver.png)
 
 Copy the link containing *localhost* to your clipboard.
 Go to the Google Colab tab in your browser and at the top right, open the environment menu by clicking on the small arrow as shown below. Then select **Connect to a local runtime**.
 
-![selecting the local runtime](pictures/chrome_wWkscSQyaG.png)
+![selecting the local runtime](pictures/localenvironment.png)
 
 Paste the link in the window that appeared and click **Connect**.
 
@@ -51,8 +51,9 @@ Do this for all Colab notebooks.
 
 # Upload the data
 
-In both **Data Owner** notebooks, upload the dataset *diabetes.csv* by clicking the folder icon on the left sidebar, then clicking the **Upoad** button (see image).
-![Uploading the dataset](pictures/chrome_mUWno6dwh8.png)
+In both **Data Owner** notebooks, upload the dataset *diabetes.csv* by clicking the folder icon on the left sidebar, then clicking the **Upload** button (see image).
+
+![Uploading the dataset](pictures/fileupload.png)
 
 # First steps 
 
