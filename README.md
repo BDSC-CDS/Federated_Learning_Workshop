@@ -49,6 +49,11 @@ Paste the link in the window that appeared and click **Connect**.
 
 Do this for all Colab notebooks.
 
+# Upload the data
+
+In both **Data Owner** notebooks, upload the dataset *diabetes.csv* by clicking the folder icon on the left sidebar, then clicking the **Upoad** button (see image).
+![Uploading the dataset](pictures/chrome_mUWno6dwh8.png)
+
 # First steps 
 
 Run the first cell, installing the packages. 
