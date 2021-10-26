@@ -61,4 +61,7 @@ Run the first cell, installing the packages.
 * If you are connected to a local environment (see [the previous section](#connecting-the-notebooks-to-a-local-environment)), install the packages in one Colab only is enough -- as they are all sharing the same environment.
 * Else, run the first cell independently in all Colabs. It will take a few minutes to install, so do it in parallel.
 
-In the second cell (starting Duet), if you are running a local environment you can add *loopback=true* as written in the cell comments. 
+In the second cell (starting Duet), if you are running a local environment you can add *loopback=true* as written in the cell comments. If it doesn't work out of the box and you get:
+    `module 'google.protobuf.descriptor' has no attribute '_internal_create_key'`
+
+you can run `pip install --upgrade protobuf` and try again.
