@@ -27,7 +27,7 @@ https://colab.research.google.com/drive/1WLgy0U4HvQnS7-9_oLnCwE_e2295LtzS?usp=sh
 Google Colab works by attributing resources on Google servers. They tend to be unreliable and disconnect, which will impact negatively your experience in this training, especially because it is sometimes necessary to reinstall all dependencies and start again from scratch. We recommend doing the local environment setup if you are able to.
 
 ## If you do not wish to connect the notebooks to a local environment:
-You can stop reading this resource.
+You can jump to [Upload the data](#upload-the-data).
 
 ## If you are already familiar with Jupyter, conda/pip (or brave enough to try installing it):
 
