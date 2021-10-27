@@ -2,7 +2,7 @@
 Content for the Tutorial: Practical Introduction to Federated Learning given on Oct. 29, 2021. 
 See https://digicosme.cnrs.fr/ecole-thematique-2021-graph-as-models-in-life-sciences-machine-learning-and-integrative-approaches/
 
-
+A useful link to get an idea about pointers in low-level programming: https://www.geeksforgeeks.org/pointers-c-examples/
 
 # Getting the notebooks and data
 
